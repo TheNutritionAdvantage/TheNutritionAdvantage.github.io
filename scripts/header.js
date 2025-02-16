@@ -37,7 +37,6 @@ let appFooter = `
     <div>
         <p>Phone: (416) 441-1647</p>
         <p>Email: cathy.ohalloran@sympatico.ca</p>
-        
     </div>
 `
 
