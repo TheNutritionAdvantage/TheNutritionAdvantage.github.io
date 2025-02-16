@@ -394,10 +394,6 @@ footer {
     transition: transform 0.3s ease;
 }
 
-.service-card:hover {
-    transform: translateY(-5px);
-}
-
 .service-card h3 {
     color: #4CAF50;
     margin-bottom: 15px;
