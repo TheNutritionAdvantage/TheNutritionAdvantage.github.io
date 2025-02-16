@@ -34,7 +34,7 @@ let appHeader = `
 
 let appFooter = `
     <p>&copy; 2025 The Nutrition Advantage. All rights reserved.</p>
-    <div class="contact-info">
+    <div>
         <p>Phone: (416) 441-1647</p>
         <p>Email: cathy.ohalloran@sympatico.ca</p>
         

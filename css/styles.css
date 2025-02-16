@@ -40,10 +40,6 @@ h1{
     font-size: 2em;
 }
 
-/* p{
-
-} */
-
 /* Header and Navigation */
 header {
     background-color: #4CAF50;
@@ -92,6 +88,11 @@ header {
 
 .social-icon:hover {
     color: #e0e0e0;
+}
+
+.icon{
+    color:#2E7D32;
+    width: 20px;
 }
 
 /* Responsive adjustments */
@@ -191,6 +192,18 @@ main {
 }
 
 /* Form Styles */
+.contact{
+    margin-left: 240px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-info{
+    width: 220px;
+    float: left;
+    padding-top: 20px;
+}
+
 .contact form {
     background-color: white;
     padding: 30px;
