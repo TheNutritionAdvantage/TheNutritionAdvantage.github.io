@@ -18,7 +18,7 @@ body {
   }
   
 #content-wrap {
-padding-bottom: 7rem;    /* Footer height */
+padding-bottom: 8rem;    /* Footer height */
 }
 
 /* Container */
@@ -194,6 +194,7 @@ main {
 /* Form Styles */
 .contact{
     margin-left: 240px;
+    min-width: 250px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -206,7 +207,7 @@ main {
 
 .contact form {
     background-color: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
@@ -264,7 +265,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 7rem;
+    height: 8rem;
 }
 
 .profile-image-container {
@@ -328,24 +329,6 @@ footer {
     }
 }
 
-/* Services Page Specific */
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.service-card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.services-container{
-    margin-bottom: 20px;
-}
-
 /* Testimonials Page */
 .testimonial {
     background-color: white;
@@ -368,6 +351,14 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin-bottom: 20px;
+}
+
+/* Services Page Specific */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 
 .services-column {
@@ -380,18 +371,12 @@ footer {
     color: #4CAF50;
 }
 
-.services-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-}
-
 .service-card {
     background-color: white;
     border-radius: 8px;
-    padding: 25px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    padding: 20px;
 }
 
 .service-card h3 {
